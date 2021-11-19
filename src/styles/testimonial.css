@@ -1,0 +1,15 @@
+.testimonial{
+    padding: 50px 0;
+    width: 100%;
+    background-color: darksalmon;
+
+}
+.testimonialsItem{
+    width: 60%;
+    margin: 0 auto;
+}
+.testimonialsItem img{
+    height: 150px;
+    margin: 40px auto;
+    border-radius: 50%;
+}

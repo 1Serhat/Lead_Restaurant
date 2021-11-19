@@ -1,0 +1,46 @@
+.intro{
+    padding: 100px 0;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    /* z-index: 20; */
+    margin-top: 100px;
+}
+.title{
+    color: darkred;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.title::after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    min-width: 300px;
+    height: 2px;
+    /* margin: 0 auto; */
+    background-color: darkred;
+    display: inline-block;
+
+  }
+.subTitle{
+    width: 80%;
+    margin: 0 auto;
+}
+.subTitle p{
+    line-height: 1.9;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        padding: 50px 0;
+        margin-top: 80px;
+        width: 95%;
+  }
+}
