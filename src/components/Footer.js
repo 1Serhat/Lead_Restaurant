@@ -6,11 +6,11 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footer-content">
-                <p>&copy; Serhat Altay</p>
+                <p>&copy; Copyright - Serhat Altay</p>
             </div>
             <div className="socialMediaIcon">
                 <Link
-                    class='social-icon-link github'
+                    class='social-icon'
                     to={{ pathname: "https://facebook.com" }}
                     target='_blank'
                     aria-label='Github'
@@ -18,7 +18,7 @@ function Footer() {
                     <i class='fab fa-facebook' />
                 </Link>
                 <Link
-                    class='social-icon-link codepen'
+                    class='social-icon'
                     to={{ pathname: "https://codepen.io" }}
                     target='_blank'
                     aria-label='Codepen'
@@ -26,7 +26,7 @@ function Footer() {
                     <i class='fab fa-codepen' />
                 </Link>
                 <Link
-                    class='social-icon-link Linkedin'
+                    class='social-icon'
                     to={{ pathname: "https://www.linkedin.com" }}
                     target='_blank'
                     aria-label='LinkedIn'
